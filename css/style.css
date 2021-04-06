@@ -1,0 +1,65 @@
+:root {
+  --bg-white: #FAFAFA;
+  --black: #23201F;
+  --orange: #FA5B3D;
+  --blue: #1C5F87;
+  --bg-table: #CFE1EB;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 1366px;
+  font-family: "PT Root UI", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  background-color: var(--bg-white);
+  color: var(--black);
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.container {
+  width: 970px;
+  margin: 0 auto;
+  border-left: 1px solid var(--black);
+  border-right: 1px solid var(--black);
+}
+
+.page-header__top-row {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+}
+
+.indicators__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.indicator__item {
+  margin-left: 32px;
+}
+
+.indicator__link {
+  font-family: "PT Root UI", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: var(--black);
+  text-decoration: none;
+}
